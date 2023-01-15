@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\UpRise.Web.Api.props" />
+</Project>

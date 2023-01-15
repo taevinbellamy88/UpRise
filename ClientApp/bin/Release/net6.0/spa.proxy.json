@@ -1,0 +1,8 @@
+{
+   "SpaProxyServer": {
+      "ServerUrl": "https://UpRise.azurewebsites.net",
+      "LaunchCommand": "yarn start",
+      "WorkingDirectory": "C:\\Users\\taevin.bellamy\\source\\repos\\UpRise\\ClientApp\\",
+      "MaxTimeoutInSeconds": "120"
+   }
+}

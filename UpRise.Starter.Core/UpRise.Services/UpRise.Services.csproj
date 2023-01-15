@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.S3" Version="3.7.101.54" />
+    <PackageReference Include="BCrypt-Core" Version="2.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="6.0.0" />
+    <PackageReference Include="SendGrid" Version="9.28.1" />
+    <PackageReference Include="Stripe.net" Version="41.4.0" />
+    <PackageReference Include="Twilio" Version="6.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UpRise.Data\UpRise.Data.csproj" />
+    <ProjectReference Include="..\UpRise.Models\UpRise.Models.csproj" />
+    <ProjectReference Include="..\UpRise.Web.Models\UpRise.Web.Models.csproj" />
+    <ProjectReference Include="..\UpRise.Data\UpRise.Data.csproj" />
+    <ProjectReference Include="..\UpRise.Models\UpRise.Models.csproj" />
+  </ItemGroup>
+
+</Project>

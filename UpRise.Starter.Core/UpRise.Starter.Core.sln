@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UpRise.Data", "UpRise.Data\UpRise.Data.csproj", "{773114AC-6481-4ECC-A74B-13E1BB1C116B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UpRise.Models", "UpRise.Models\UpRise.Models.csproj", "{15578ADA-DB2C-47CE-BFCC-9CCCC58017F9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UpRise.Services", "UpRise.Services\UpRise.Services.csproj", "{D0BD9440-C8C2-43C2-AF99-A4653B77D5D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UpRise.Web.Api", "UpRise.Web.Api\UpRise.Web.Api.csproj", "{A3809194-69EF-4CFD-BB59-70D356016007}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UpRise.Web.Core", "UpRise.Web.Core\UpRise.Web.Core.csproj", "{78BFDE99-C625-462A-AD53-D2127F71E05A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UpRise.Web.Models", "UpRise.Web.Models\UpRise.Web.Models.csproj", "{4DF44B6E-C24A-44BA-AAC6-70C0C3CEF6A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{36E29703-10B7-4C44-AE78-478099386E75}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{773114AC-6481-4ECC-A74B-13E1BB1C116B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{773114AC-6481-4ECC-A74B-13E1BB1C116B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{773114AC-6481-4ECC-A74B-13E1BB1C116B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{773114AC-6481-4ECC-A74B-13E1BB1C116B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15578ADA-DB2C-47CE-BFCC-9CCCC58017F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15578ADA-DB2C-47CE-BFCC-9CCCC58017F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15578ADA-DB2C-47CE-BFCC-9CCCC58017F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15578ADA-DB2C-47CE-BFCC-9CCCC58017F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0BD9440-C8C2-43C2-AF99-A4653B77D5D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0BD9440-C8C2-43C2-AF99-A4653B77D5D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0BD9440-C8C2-43C2-AF99-A4653B77D5D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0BD9440-C8C2-43C2-AF99-A4653B77D5D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3809194-69EF-4CFD-BB59-70D356016007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3809194-69EF-4CFD-BB59-70D356016007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3809194-69EF-4CFD-BB59-70D356016007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3809194-69EF-4CFD-BB59-70D356016007}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78BFDE99-C625-462A-AD53-D2127F71E05A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78BFDE99-C625-462A-AD53-D2127F71E05A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78BFDE99-C625-462A-AD53-D2127F71E05A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78BFDE99-C625-462A-AD53-D2127F71E05A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DF44B6E-C24A-44BA-AAC6-70C0C3CEF6A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DF44B6E-C24A-44BA-AAC6-70C0C3CEF6A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DF44B6E-C24A-44BA-AAC6-70C0C3CEF6A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DF44B6E-C24A-44BA-AAC6-70C0C3CEF6A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9DCB4FB-495E-4326-887C-E57A4168D142}
+	EndGlobalSection
+EndGlobal

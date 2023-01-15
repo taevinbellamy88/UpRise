@@ -1,0 +1,173 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\taevin.bellamy\\source\\repos\\UpRise\\UpWork.Starter.Core\\UpWork.Web.Api\\UpWork.Web.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\taevin.bellamy\\source\\repos\\UpRise\\UpWork.Starter.Core\\UpWork.Web.Api\\UpWork.Web.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\taevin.bellamy\\source\\repos\\UpRise\\UpWork.Starter.Core\\UpWork.Web.Api\\UpWork.Web.Api.csproj",
+        "projectName": "UpWork.Web.Api",
+        "projectPath": "C:\\Users\\taevin.bellamy\\source\\repos\\UpRise\\UpWork.Starter.Core\\UpWork.Web.Api\\UpWork.Web.Api.csproj",
+        "packagesPath": "C:\\Users\\taevin.bellamy\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\taevin.bellamy\\source\\repos\\UpRise\\UpWork.Starter.Core\\UpWork.Web.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\taevin.bellamy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\taevin.bellamy\\source\\repos\\UpRise\\UpWork.Starter.Core\\UpRise.Data\\UpRise.Data.csproj": {
+                "projectPath": "C:\\Users\\taevin.bellamy\\source\\repos\\UpRise\\UpWork.Starter.Core\\UpRise.Data\\UpRise.Data.csproj"
+              },
+              "C:\\Users\\taevin.bellamy\\source\\repos\\UpRise\\UpWork.Starter.Core\\UpRise.Models\\UpRise.Models.csproj": {
+                "projectPath": "C:\\Users\\taevin.bellamy\\source\\repos\\UpRise\\UpWork.Starter.Core\\UpRise.Models\\UpRise.Models.csproj"
+              },
+              "C:\\Users\\taevin.bellamy\\source\\repos\\UpRise\\UpWork.Starter.Core\\UpRise.Services\\UpRise.Services.csproj": {
+                "projectPath": "C:\\Users\\taevin.bellamy\\source\\repos\\UpRise\\UpWork.Starter.Core\\UpRise.Services\\UpRise.Services.csproj"
+              },
+              "C:\\Users\\taevin.bellamy\\source\\repos\\UpRise\\UpWork.Starter.Core\\UpRise.Web.Core\\UpRise.Web.Core.csproj": {
+                "projectPath": "C:\\Users\\taevin.bellamy\\source\\repos\\UpRise\\UpWork.Starter.Core\\UpRise.Web.Core\\UpRise.Web.Core.csproj"
+              },
+              "C:\\Users\\taevin.bellamy\\source\\repos\\UpRise\\UpWork.Starter.Core\\UpRise.Web.Models\\UpRise.Web.Models.csproj": {
+                "projectPath": "C:\\Users\\taevin.bellamy\\source\\repos\\UpRise\\UpWork.Starter.Core\\UpRise.Web.Models\\UpRise.Web.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.7.101.54, )"
+            },
+            "BCrypt-Core": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "Microsoft.AspNet.WebApi.Client": {
+              "target": "Package",
+              "version": "[5.2.9, )"
+            },
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.AspNetCore.SpaServices": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.AspNetCore.SpaServices.Extensions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens.Saml": {
+              "target": "Package",
+              "version": "[6.25.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "SendGrid": {
+              "target": "Package",
+              "version": "[9.28.1, )"
+            },
+            "Sustainsys.Saml2": {
+              "target": "Package",
+              "version": "[2.9.0, )"
+            },
+            "Sustainsys.Saml2.AspNetCore2": {
+              "target": "Package",
+              "version": "[2.9.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.25.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
