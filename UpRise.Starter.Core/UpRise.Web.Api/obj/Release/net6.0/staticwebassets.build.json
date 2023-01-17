@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "yVOxTcKF8GnLAsLlTWB+hprgcLjbn2wmO/DWFqGlRvc=",
+  "Source": "UpRise.Web.Api",
+  "BasePath": "_content/UpRise.Web.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

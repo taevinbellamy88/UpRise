@@ -1,0 +1,12 @@
+C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Models\bin\Release\net6.0\UpRise.Web.Models.deps.json
+C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Models\bin\Release\net6.0\UpRise.Web.Models.dll
+C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Models\bin\Release\net6.0\UpRise.Web.Models.pdb
+C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Models\obj\Release\net6.0\UpRise.Web.Models.csproj.AssemblyReference.cache
+C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Models\obj\Release\net6.0\UpRise.Web.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Models\obj\Release\net6.0\UpRise.Web.Models.AssemblyInfoInputs.cache
+C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Models\obj\Release\net6.0\UpRise.Web.Models.AssemblyInfo.cs
+C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Models\obj\Release\net6.0\UpRise.Web.Models.csproj.CoreCompileInputs.cache
+C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Models\obj\Release\net6.0\UpRise.Web.Models.dll
+C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Models\obj\Release\net6.0\refint\UpRise.Web.Models.dll
+C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Models\obj\Release\net6.0\UpRise.Web.Models.pdb
+C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Models\obj\Release\net6.0\ref\UpRise.Web.Models.dll
