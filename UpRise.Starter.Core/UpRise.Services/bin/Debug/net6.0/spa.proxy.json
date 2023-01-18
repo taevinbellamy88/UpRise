@@ -1,8 +1,0 @@
-{
-"SpaProxyServer": {
-"ServerUrl": "",
-"LaunchCommand": "",
-"WorkingDirectory": "C:\\Users\\taevin.bellamy\\source\\repos\\UpRise\\UpRise.Starter.Core\\UpRise.Services",
-"MaxTimeoutInSeconds": "120"
-}
-}
