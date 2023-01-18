@@ -4,9 +4,10 @@ using Microsoft.AspNetCore.Http;
 using System.Reflection;
 using System.Security.Claims;
 using System.Security.Principal;
-using UpRise.Domain;
-using UpRise.Interfaces;
-using UpRise.Security;
+using UpRise.Models.Domain;
+using UpRise.Models.Interfaces;
+using UpRise.Services.Interfaces.Security;
+using UpRise.Services.Security;
 
 namespace UpRise.Web.Core.Services
 {

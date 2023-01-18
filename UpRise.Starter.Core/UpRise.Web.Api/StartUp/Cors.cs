@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace UpRise.StartUp
+namespace UpRise.Web.Api.StartUp
 {
     public class Cors
     {

@@ -1,4 +1,4 @@
-﻿namespace UpRise.AppSettings
+﻿namespace UpRise.Models.AppSettings
 {
     public class AppKeys
     {

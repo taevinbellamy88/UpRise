@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Net;
-using UpRise.Web.Models;
+using UpRise.Web.Models.Interfaces;
 using UpRise.Web.Models.Responses;
 
 namespace UpRise.Web.Api.Controllers

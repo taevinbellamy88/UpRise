@@ -1,0 +1,8 @@
+{
+"SpaProxyServer": {
+"ServerUrl": "http://localhost:3000",
+"LaunchCommand": "yarn start",
+"WorkingDirectory": "C:\\Users\\taevin.bellamy\\source\\repos\\UpRise\\UpRise.Starter.Core\\UpRise.Web.Api\\ClientApp\\",
+"MaxTimeoutInSeconds": "120"
+}
+}

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace UpRise.Interfaces
+namespace UpRise.Models.Interfaces
 {
     public interface IUserAuthData
     {

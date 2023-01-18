@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
+using UpRise.Models.Interfaces;
 using UpRise.Web.Models.Responses;
 
 namespace UpRise.Web.Core.Filters

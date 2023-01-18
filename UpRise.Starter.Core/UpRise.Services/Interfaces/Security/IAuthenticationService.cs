@@ -1,7 +1,7 @@
-﻿using UpRise.Interfaces;
-using System.Security.Claims;
+﻿using System.Security.Claims;
+using UpRise.Models.Interfaces;
 
-namespace UpRise
+namespace UpRise.Services.Interfaces.Security
 {
     /// <summary>
     /// Provides basic functionality for Authentication, Authorization and access to App Customized

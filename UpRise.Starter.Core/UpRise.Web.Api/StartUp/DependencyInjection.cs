@@ -1,8 +1,11 @@
-﻿
-using UpRise.Data.Interfaces;
+﻿using UpRise.Data.Interfaces;
+using UpRise.Data.Providers;
+using UpRise.Services;
+using UpRise.Services.Interfaces;
+using UpRise.Services.Interfaces.Security;
 using UpRise.Web.Core.Services;
 
-namespace UpRise.StartUp
+namespace UpRise.Web.Api.StartUp
 {
     public class DependencyInjection
     {

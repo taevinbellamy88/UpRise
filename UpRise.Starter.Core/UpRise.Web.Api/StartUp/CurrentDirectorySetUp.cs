@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace UpRise.StartUp
+namespace UpRise.Web.Api.StartUp
 {
     public static class CurrentDirectorySetUp
     {

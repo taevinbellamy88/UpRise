@@ -4,6 +4,7 @@ using System;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
+using UpRise.Web.Core.Configs;
 
 namespace UpRise.Web.Core.Services
 {

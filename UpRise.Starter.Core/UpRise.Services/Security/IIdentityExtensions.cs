@@ -4,7 +4,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Security.Principal;
 
-namespace UpRise.Security
+namespace UpRise.Services.Security
 {
     public static class IIdentityExtensions
     {
@@ -21,7 +21,7 @@ namespace UpRise.Security
             {
                 Claim claim = ci.Claims.FirstOrDefault(c => c.Type == ClaimTypes.NameIdentifier);
 
-                if (claim != null && Int32.TryParse(claim.Value, out idParsed))
+                if (claim != null && int.TryParse(claim.Value, out idParsed))
                 {
                     return idParsed;
                 }

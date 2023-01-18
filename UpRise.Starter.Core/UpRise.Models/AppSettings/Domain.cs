@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UpRise.AppSettings
+namespace UpRise.Models.AppSettings
 {
     public class Domain
     {

@@ -1,14 +1,16 @@
 ﻿using System.Data;
 using System.Data.SqlClient;
 using System.Security.Claims;
+using UpRise.Data.Extensions;
 using UpRise.Data.Interfaces;
-using UpRise.Domain;
-using UpRise.Domain.User;
-using UpRise.Extensions;
-using UpRise.Interfaces;
-using UpRise.Requests.User;
+using UpRise.Models.Domain;
+using UpRise.Models.Domain.User;
+using UpRise.Models.Interfaces;
+using UpRise.Models.Requests.User;
+using UpRise.Services.Interfaces;
+using UpRise.Services.Interfaces.Security;
 
-namespace UpRise
+namespace UpRise.Services
 {
     public class UserService : IUserService
     {
@@ -87,7 +89,7 @@ namespace UpRise
                 {
                     object oId = returnCol["@Id"].Value;
 
-                    Int32.TryParse(oId.ToString(), out userId);
+                    int.TryParse(oId.ToString(), out userId);
                 });
 
             return userId;

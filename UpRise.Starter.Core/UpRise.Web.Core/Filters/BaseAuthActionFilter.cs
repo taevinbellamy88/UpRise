@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc.Filters;
+using UpRise.Models.Enums;
 
 namespace UpRise.Web.Core.Filters
 {

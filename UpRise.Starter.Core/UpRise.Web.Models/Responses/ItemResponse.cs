@@ -1,4 +1,6 @@
-﻿namespace UpRise.Web.Models.Responses
+﻿using UpRise.Web.Models.Interfaces;
+
+namespace UpRise.Web.Models.Responses
 {
     /// <summary>
     /// This is an example of a Generic class that you will gain an understanding of as you progress

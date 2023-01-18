@@ -3,7 +3,7 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Data.SqlTypes;
 
-namespace UpRise.Extensions
+namespace UpRise.Data.Extensions
 {
     public static class IDataReaderExt
     {

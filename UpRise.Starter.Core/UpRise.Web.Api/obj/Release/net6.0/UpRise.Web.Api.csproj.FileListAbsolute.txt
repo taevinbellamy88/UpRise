@@ -307,3 +307,7 @@ C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\o
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\obj\Release\net6.0\UpRise.Web.Api.pdb
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\obj\Release\net6.0\UpRise.Web.Api.genruntimeconfig.cache
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\obj\Release\net6.0\ref\UpRise.Web.Api.dll
+C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\bin\Release\net6.0\Microsoft.AspNetCore.Http.Connections.Client.dll
+C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\bin\Release\net6.0\Microsoft.Azure.SignalR.Common.dll
+C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\bin\Release\net6.0\Microsoft.Azure.SignalR.dll
+C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\bin\Release\net6.0\Microsoft.Azure.SignalR.Protocols.dll

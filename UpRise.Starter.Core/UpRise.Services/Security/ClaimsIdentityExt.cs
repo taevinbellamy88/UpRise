@@ -1,6 +1,6 @@
 ﻿using System.Security.Claims;
 
-namespace UpRise.Security
+namespace UpRise.Services.Security
 {
     public static class ClaimsIdentityExt
     {

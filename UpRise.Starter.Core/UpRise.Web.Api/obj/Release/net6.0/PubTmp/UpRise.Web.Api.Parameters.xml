@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
-  <parameter name="IIS Web Application Name" description="" value="UpRise" tags="IisApp">
+  <parameter name="IIS Web Application Name" description="" value="uprise" tags="IisApp">
     <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\taevin\.bellamy\\source\\repos\\UpRise\\UpRise\.Starter\.Core\\UpRise\.Web\.Api\\obj\\Release\\net6\.0\\PubTmp\\Out\\$" />
   </parameter>
 </parameters>

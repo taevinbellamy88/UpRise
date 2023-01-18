@@ -1,4 +1,4 @@
-﻿namespace UpRise.Web.Models
+﻿namespace UpRise.Web.Models.Interfaces
 {
     public interface IItemResponse
     {

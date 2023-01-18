@@ -1,4 +1,4 @@
-﻿namespace UpRise.Requests.User
+﻿namespace UpRise.Models.Requests.User
 {
     public class UserBaseAddRequest
     {

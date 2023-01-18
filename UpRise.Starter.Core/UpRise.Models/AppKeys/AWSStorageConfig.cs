@@ -1,4 +1,4 @@
-﻿namespace UpRise.AppSettings
+﻿namespace UpRise.Models.AppKeys
 {
     public class AWSStorageConfig
     {

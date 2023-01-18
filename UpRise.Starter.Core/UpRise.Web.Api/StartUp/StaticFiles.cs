@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace UpRise.StartUp
+namespace UpRise.Web.Api.StartUp
 {
     public class StaticFiles
     {

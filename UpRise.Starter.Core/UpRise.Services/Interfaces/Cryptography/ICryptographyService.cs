@@ -1,4 +1,4 @@
-﻿namespace UpRise.Cryptography
+﻿namespace UpRise.Services.Interfaces.Cryptography
 {
     public interface ICryptographyService
     {

@@ -9,7 +9,7 @@ using System.Linq;
 using UpRise.Web.Core.Filters;
 using UpRise.Web.Models.Responses;
 
-namespace UpRise.StartUp
+namespace UpRise.Web.Api.StartUp
 {
     public abstract class MVC
     {

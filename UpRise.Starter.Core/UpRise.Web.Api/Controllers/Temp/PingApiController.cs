@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
-using UpRise.AppSettings;
+using UpRise.Models.AppSettings;
 using UpRise.Web.Models.Responses;
 
-namespace UpRise.Web.Api.Controllers
+namespace UpRise.Web.Api.Controllers.Temp
 {
     /// <summary>
     /// This controller is not required for the application to work. 

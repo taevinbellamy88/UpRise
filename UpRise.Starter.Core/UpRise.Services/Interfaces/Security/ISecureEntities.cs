@@ -1,4 +1,6 @@
-﻿namespace UpRise
+﻿using UpRise.Models.Enums;
+
+namespace UpRise.Services.Interfaces.Security
 {
     /// <summary>
     /// </summary>

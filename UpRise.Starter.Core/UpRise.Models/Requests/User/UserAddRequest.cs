@@ -5,11 +5,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UpRise.Requests.User
+namespace UpRise.Models.Requests.User
 {
     public class UserAddRequest
     {
-        
+
         [Required]
         [DataType(DataType.EmailAddress)]
         public string Email { get; set; }

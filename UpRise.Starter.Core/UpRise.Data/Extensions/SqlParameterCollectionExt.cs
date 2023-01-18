@@ -2,7 +2,7 @@
 using System.Data;
 using System.Data.SqlClient;
 
-namespace UpRise.Extensions
+namespace UpRise.Data.Extensions
 {
     public static class SqlParameterCollectionExt
     {

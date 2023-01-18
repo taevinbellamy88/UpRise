@@ -1,7 +1,7 @@
-﻿using UpRise.Interfaces;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using UpRise.Models.Interfaces;
 
-namespace UpRise.Domain
+namespace UpRise.Models.Domain
 {
     public class UserBase : IUserAuthData
     {
@@ -10,7 +10,7 @@ namespace UpRise.Domain
             get; set;
         }
 
-        public string Name 
+        public string Name
         {
             get; set;
         }

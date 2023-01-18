@@ -11,11 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("UpRise.Web.Api")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("603297e5-a5d6-4df8-b7a5-b3d3dc74818b")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("UpRise")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("UpRise.Web.Api")]
+[assembly: System.Reflection.AssemblyProductAttribute("UpRise Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UpRise.Web.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 

@@ -1,5 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
+using UpRise.Models.Interfaces;
+using UpRise.Services.Interfaces.Security;
 
 namespace UpRise.Web.Core.Filters
 {

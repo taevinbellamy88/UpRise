@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
 
-namespace UpRise.StartUp
+namespace UpRise.Web.Api.StartUp
 {
     public class SPA
     {

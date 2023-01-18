@@ -2,7 +2,7 @@
 using System.Data;
 using System.Data.SqlClient;
 
-namespace UpRise
+namespace UpRise.Data.Providers
 {
     public sealed class SqlDataProvider : IDataProvider
     {
@@ -146,7 +146,7 @@ namespace UpRise
 
             if (cmd != null)
             {
-                if (!String.IsNullOrEmpty(cmdText))
+                if (!string.IsNullOrEmpty(cmdText))
                 {
                     cmd.CommandText = cmdText;
                     cmd.CommandType = CommandType.StoredProcedure;
@@ -168,7 +168,7 @@ namespace UpRise
 
             if (cmd != null)
             {
-                if (!String.IsNullOrEmpty(cmdText))
+                if (!string.IsNullOrEmpty(cmdText))
                 {
                     cmd.CommandText = cmdText;
                     cmd.CommandType = CommandType.StoredProcedure;

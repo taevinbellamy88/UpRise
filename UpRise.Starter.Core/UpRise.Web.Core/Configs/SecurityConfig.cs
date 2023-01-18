@@ -1,4 +1,4 @@
-﻿namespace UpRise.Web.Core
+﻿namespace UpRise.Web.Core.Configs
 {
     public class SecurityConfig
     {

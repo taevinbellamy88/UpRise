@@ -1,13 +1,11 @@
-﻿using UpRise.AppSettings;
-using UpRise.StartUp;
-using UpRise.Web.Core;
-using Microsoft.AspNetCore.Server.Kestrel.Core;
-using Newtonsoft.Json;
-using System.Net;
-using System.Security.Cryptography.X509Certificates;
+﻿using Newtonsoft.Json;
 using System.Text.Json.Serialization;
+using UpRise.Models.AppKeys;
+using UpRise.Models.AppSettings;
+using UpRise.Web.Api.StartUp;
+using UpRise.Web.Core.Configs;
 
-namespace UpRise
+namespace UpRise.Web.Api
 {
     public class Startup
     {
@@ -23,7 +21,7 @@ namespace UpRise
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //services.AddMemoryCache();
+            services.AddMemoryCache();
 
             ConfigureAppSettings(services);
 
@@ -34,6 +32,7 @@ namespace UpRise
             Authentication.ConfigureServices(services, Configuration);
 
             MVC.ConfigureServices(services);
+            services.AddApplicationInsightsTelemetry();
 
             SPA.ConfigureServices(services);
         }
@@ -74,12 +73,6 @@ namespace UpRise
 
             if (!env.IsDevelopment())
             {
-                var certificate = new X509Certificate2("");
-                var serverOptions = new KestrelServerOptions();
-                serverOptions.Listen(IPAddress.Any, 443, listenOptions =>
-                {
-                    listenOptions.UseHttps(certificate);
-                });
                 app.UseHttpsRedirection();
             }
             app.UseRouting();

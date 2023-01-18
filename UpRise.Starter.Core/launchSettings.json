@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Docker Compose": {
+      "commandName": "DockerCompose",
+      "commandVersion": "1.0",
+      "composeLaunchAction": "LaunchBrowser",
+      "composeLaunchServiceName": "uprise.web.api",
+      "composeLaunchUrl": "{Scheme}://{ServiceIPAddress}{ServicePort}",
+      "serviceActions": {
+        "uprise.web.api": "StartDebugging"
+      }
+    }
+  }
+}

@@ -1,4 +1,4 @@
-﻿namespace UpRise
+﻿namespace UpRise.Models.Enums
 {
     public enum EntityActionType
     {

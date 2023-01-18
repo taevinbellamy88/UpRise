@@ -1,8 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using UpRise.Domain.User;
-using UpRise.Interfaces;
-using UpRise.Requests.User;
+using UpRise.Models.Domain.User;
+using UpRise.Models.Interfaces;
+using UpRise.Models.Requests.User;
+using UpRise.Services.Interfaces;
+using UpRise.Services.Interfaces.Security;
 using UpRise.Web.Models.Responses;
 
 namespace UpRise.Web.Api.Controllers

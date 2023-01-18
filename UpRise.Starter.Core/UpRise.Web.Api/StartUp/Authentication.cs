@@ -2,9 +2,9 @@
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Sustainsys.Saml2.AspNetCore2;
 using System.Net;
-using UpRise.Web.Core;
+using UpRise.Web.Core.Configs;
 
-namespace UpRise.StartUp
+namespace UpRise.Web.Api.StartUp
 {
     public class Authentication
     {
@@ -70,7 +70,7 @@ namespace UpRise.StartUp
             {
                 options.Cookie = cookie;
                 options.SlidingExpiration = true;
-                options.TicketDataFormat = new Web.Core.Services.TokenSecureDataFormat(jsonWebTokenConfig);
+                options.TicketDataFormat = new Core.Services.TokenSecureDataFormat(jsonWebTokenConfig);
                 options.AccessDeniedPath = "/unauthorized";
                 options.LoginPath = "/login";
                 options.LogoutPath = "/logout";

@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging.Console;
 
-namespace UpRise
+namespace UpRise.Web.Api
 {
     public class Program
     {

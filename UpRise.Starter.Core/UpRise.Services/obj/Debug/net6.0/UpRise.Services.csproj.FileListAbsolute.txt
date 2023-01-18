@@ -1,3 +1,4 @@
+C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Services\bin\Debug\net6.0\spa.proxy.json
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Services\bin\Debug\net6.0\UpRise.Services.deps.json
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Services\bin\Debug\net6.0\UpRise.Services.dll
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Services\bin\Debug\net6.0\UpRise.Services.pdb
@@ -8,6 +9,7 @@ C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Services\
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Services\bin\Debug\net6.0\UpRise.Models.pdb
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Services\bin\Debug\net6.0\UpRise.Web.Models.pdb
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Services\obj\Debug\net6.0\UpRise.Services.csproj.AssemblyReference.cache
+C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Services\obj\Debug\net6.0\spa.proxy.json
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Services\obj\Debug\net6.0\UpRise.Services.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Services\obj\Debug\net6.0\UpRise.Services.AssemblyInfoInputs.cache
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Services\obj\Debug\net6.0\UpRise.Services.AssemblyInfo.cs

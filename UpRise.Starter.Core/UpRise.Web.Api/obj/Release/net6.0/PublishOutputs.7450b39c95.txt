@@ -15,12 +15,16 @@ C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\o
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\obj\Release\net6.0\PubTmp\Out\MessagePack.Annotations.dll
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\obj\Release\net6.0\PubTmp\Out\System.Net.Http.Formatting.dll
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Http.Connections.Client.dll
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.NodeServices.dll
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.SpaServices.dll
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\obj\Release\net6.0\PubTmp\Out\Microsoft.AspNetCore.SpaServices.Extensions.dll
+C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\obj\Release\net6.0\PubTmp\Out\Microsoft.Azure.SignalR.Common.dll
+C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\obj\Release\net6.0\PubTmp\Out\Microsoft.Azure.SignalR.dll
+C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\obj\Release\net6.0\PubTmp\Out\Microsoft.Azure.SignalR.Protocols.dll
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\obj\Release\net6.0\PubTmp\Out\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\obj\Release\net6.0\PubTmp\Out\Microsoft.Build.dll
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\obj\Release\net6.0\PubTmp\Out\Microsoft.Build.Framework.dll

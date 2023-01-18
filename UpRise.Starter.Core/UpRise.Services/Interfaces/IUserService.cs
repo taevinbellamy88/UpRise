@@ -1,6 +1,6 @@
-﻿using UpRise.Requests.User;
+﻿using UpRise.Models.Requests.User;
 
-namespace UpRise
+namespace UpRise.Services.Interfaces
 {
     public interface IUserService
     {

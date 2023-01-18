@@ -1,11 +1,13 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
-using UpRise.Interfaces;
-using UpRise.Web.Core;
+using UpRise.Models.Interfaces;
+using UpRise.Services.Interfaces;
+using UpRise.Services.Interfaces.Security;
+using UpRise.Web.Core.Configs;
 using UpRise.Web.Models.Responses;
 
-namespace UpRise.Web.Api.Controllers
+namespace UpRise.Web.Api.Controllers.Temp
 {
     [Route("api/temp/auth")]
     [ApiController]
@@ -72,7 +74,7 @@ namespace UpRise.Web.Api.Controllers
         [AllowAnonymous]
         public ActionResult<SuccessResponse> Get()
         {
-            Logger.LogInformation($"Endpoing firing {this.ControllerContext.ActionDescriptor.ActionName} with anyone route");
+            Logger.LogInformation($"Endpoing firing {ControllerContext.ActionDescriptor.ActionName} with anyone route");
 
             SuccessResponse response = new SuccessResponse();
             return Ok200(response);

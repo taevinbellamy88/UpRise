@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace UpRise
+namespace UpRise.Models
 {
     public class Paged<T>
     {
