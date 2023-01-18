@@ -307,12 +307,8 @@ package-lock.json
 
 *wakatime*
 
-UpRise.Starter.Core/UpRise.Web.Api/obj/Debug/net6.0/UpRise.Web.Api.csproj.FileListAbsolute.txt
-UpRise.Starter.Core/.vs/UpRise.Starter.Core/v17/.suo
-UpRise.Starter.Core/.vs/UpRise.Starter.Core/v17/.suo
-UpRise.Starter.Core/.vs/UpRise.Starter.Core/v17/.suo
-UpRise.Starter.Core/.vs/UpRise.Starter.Core/v17/.suo
-UpRise.Starter.Core/.vs/UpRise.Starter.Core/v17/.suo
-UpRise.Starter.Core/.vs/UpRise.Starter.Core/v17/.suo
+*.FileListAbsolute.txt
+UpRise.Starter.Core/.vs/*
+*/obj/Debug/net6.0/*
 UpRise.Starter.Core/UpRise.Data/obj/Debug/net6.0/UpRise.Data.csproj.FileListAbsolute.txt
-UpRise.Starter.Core/UpRise.Data/obj/Debug/net6.0/UpRise.Data.csproj.FileListAbsolute.txt
+*.suo
