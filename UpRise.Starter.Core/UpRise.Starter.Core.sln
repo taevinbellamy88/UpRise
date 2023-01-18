@@ -18,6 +18,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{36E29703-10B7-4C44-AE78-478099386E75}"
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
+		readMe-flow.txt = readMe-flow.txt
 	EndProjectSection
 EndProject
 Global
