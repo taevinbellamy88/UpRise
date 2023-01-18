@@ -5,6 +5,7 @@
 
 UpRise.Starter.Core/UpRise.Web.Api/obj/
 UpRise.Starter.Core\/.vs\/UpRise.Starter.Core\/v17\/.suo
+*UpRise.Starter.Core\bin\/*
 
 # To force user interaction with the merging of this file
 *.csproj merge=binary
