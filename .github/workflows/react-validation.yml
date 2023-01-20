@@ -1,0 +1,27 @@
+﻿name: Test React App
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  test:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest]
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Navigate to ClientApp folder
+      run: cd ClientApp
+    - name: Use Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: 18
+    - name: Install Dependencies
+      run: yarn install
+    - name: Navigate to ClientApp folder
+      run: cd ClientApp      
