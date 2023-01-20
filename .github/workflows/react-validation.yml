@@ -23,5 +23,4 @@ jobs:
         node-version: 18
     - name: Install Dependencies
       run: yarn install
-    - name: Navigate to ClientApp folder
-      run: cd ClientApp      
+      
