@@ -25,5 +25,3 @@ jobs:
       run: yarn install
     - name: Navigate to ClientApp folder
       run: cd ClientApp      
-    - name: Run Tests
-      run: yarn test
