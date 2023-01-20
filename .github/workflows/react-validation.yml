@@ -26,4 +26,4 @@ jobs:
     - name: Navigate to ClientApp folder
       run: cd ClientApp      
     - name: Run Tests
-      run: yarn test --cwd $(pwd)/ClientApp 
+      run: yarn test
