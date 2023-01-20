@@ -6,7 +6,7 @@ const MainHero = () => {
          <div className="container">
             <div className="p-5 mb-4 bg-light rounded-3">
                <div className="container-fluid py-5">
-                  <h1 className="display-5 fw-bold">Hello, world!</h1>
+                  <h1 className="display-5 fw-bold">Let's Build</h1>
                   <p className="col-md-8 fs-4">
                      The button below should make an ajax call when clicked. Look at
                      your task details for more infomation about the specifics.
