@@ -22,6 +22,6 @@ jobs:
       with:
         node-version: 18
     - name: Install Dependencies
-      run: yarn install ClientApp
+      run: yarn install 
     - name: Run Tests
-      run: yarn test ClientApp
+      run: yarn test 
