@@ -10,21 +10,21 @@ on:
       branches: ["main"]
 
 jobs:
-   build:
-      runs-on: ${{ matrix.os }}
+  build:
+    runs-on: ${{ matrix.os }}
     strategy:
       matrix:
         os: [ubuntu-latest, windows-latest, macOS-latest]
 
-      steps:
-         - uses: actions/checkout@v3
-         - name: Setup .NET
-           uses: actions/setup-dotnet@v3
-           with:
-              dotnet-version: 6.0.x
-         - name: Restore dependencies
-           run: dotnet restore UpRise.Starter.Core/UpRise.Starter.Core.sln
-         - name: Build
-           run: dotnet build UpRise.Starter.Core/UpRise.Starter.Core.sln  --no-restore
-         - name: Test
-           run: dotnet test UpRise.Starter.Core/UpRise.Web.Api/UpRise.Web.Api.csproj --no-build --verbosity normal
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: 6.0.x
+      - name: Restore dependencies
+        run: dotnet restore UpRise.Starter.Core/UpRise.Starter.Core.sln
+      - name: Build
+        run: dotnet build UpRise.Starter.Core/UpRise.Starter.Core.sln  --no-restore
+      - name: Test
+        run: dotnet test UpRise.Starter.Core/UpRise.Web.Api/UpRise.Web.
