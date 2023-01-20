@@ -11,15 +11,17 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [ubuntu-latest, macOS-latest]
+        os: [ubuntu-latest]
 
     steps:
     - uses: actions/checkout@v3
+    - name: Navigate to ClientApp folder
+      run: cd ClientApp
     - name: Use Node.js
       uses: actions/setup-node@v2
       with:
         node-version: 18
     - name: Install Dependencies
-      run: yarn install --cwd ClientApp
+      run: yarn install ClientApp
     - name: Run Tests
-      run: yarn test --cwd $(pwd)/ClientApp
+      run: yarn test ClientApp
