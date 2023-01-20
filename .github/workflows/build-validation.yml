@@ -27,4 +27,4 @@ jobs:
       - name: Build
         run: dotnet build UpRise.Starter.Core/UpRise.Starter.Core.sln  --no-restore
       - name: Test
-        run: dotnet test UpRise.Starter.Core/UpRise.Web.Api/UpRise.Web.
+        run: dotnet test UpRise.Starter.Core/UpRise.Web.Api/UpRise.Web.Api.csproj --no-build --verbosity normal
