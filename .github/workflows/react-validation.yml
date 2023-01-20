@@ -22,4 +22,4 @@ jobs:
     - name: Install Dependencies
       run: yarn install --cwd ClientApp
     - name: Run Tests
-      run: yarn test --cwd ClientApp
+      run: yarn test --cwd $(pwd)/ClientApp
