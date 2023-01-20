@@ -22,6 +22,8 @@ jobs:
       with:
         node-version: 18
     - name: Install Dependencies
-      run: yarn install 
+      run: yarn install
+    - name: Navigate to ClientApp folder
+      run: cd ClientApp      
     - name: Run Tests
       run: yarn test --cwd $(pwd)/ClientApp 
