@@ -1,6 +1,4 @@
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\bin\Debug\net6.0\spa.proxy.json
-C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\bin\Debug\net6.0\appsettings.Development.json
-C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\bin\Debug\net6.0\appsettings.json
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\bin\Debug\net6.0\UpRise.Web.Api.exe
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\bin\Debug\net6.0\UpRise.Web.Api.deps.json
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\bin\Debug\net6.0\UpRise.Web.Api.runtimeconfig.json
@@ -326,3 +324,5 @@ C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\o
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\obj\Debug\net6.0\UpRise.Web.Api.pdb
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\obj\Debug\net6.0\UpRise.Web.Api.genruntimeconfig.cache
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\obj\Debug\net6.0\ref\UpRise.Web.Api.dll
+C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Web.Api\bin\Debug\net6.0\appsettings.json
