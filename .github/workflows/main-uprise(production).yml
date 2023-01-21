@@ -30,13 +30,13 @@ jobs:
         run: dotnet build UpRise.Starter.Core/UpRise.Starter.Core.sln --configuration Release
 
       - name: dotnet publish
-        run: dotnet publish -c Release -o UpRise.Starter.Core/UpRise.Web.Api/UpRise.Web.Api.csproj
+        run: dotnet publish -c Release -o UpRise.Starter.Core/UpRise.Starter.Core.sln
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v2
         with:
           name: .net-app
-          path: UpRise.Starter.Core/UpRise.Web.Api/UpRise.Web.Api.csproj
+          path: UpRise.Starter.Core/UpRise.Starter.Core.sln
 
   deploy:
     runs-on: windows-latest
