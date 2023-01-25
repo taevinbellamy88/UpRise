@@ -1,0 +1,64 @@
+﻿# Docs for the Azure Web Apps Deploy action: https://github.com/Azure/webapps-deploy
+# More GitHub Actions for Azure: https://github.com/Azure/actions
+
+name: Azure WebApp Deployment
+
+on:
+   push:
+      branches: ["main"]
+   pull_request:
+      branches: ["main"]
+env:
+  AZURE_WEBAPP_NAME: uprise   
+  AZURE_WEBAPP_PACKAGE_PATH: 'UpRise.Starter.Core/UpRise.Web.Api/UpRise.Web.Api.csproj'
+  DOTNET_VERSION: '6.0.x'
+ 
+jobs:
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Navigate to Core/UpRise folder
+        run: cd UpRise.Starter.Core
+      - name: Set up .NET Core
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '6.0.x'
+          include-prerelease: true
+
+      - name: Build with dotnet
+        run: dotnet build UpRise.Starter.Core/UpRise.Starter.Core.sln --configuration Release
+
+      - name: dotnet publish
+        run: dotnet publish UpRise.Starter.Core/UpRise.Starter.Core.sln -c Release -o UpRise.Starter.Core/UpRise.Web.Api/
+      - name: Upload artifact for deployment job
+        uses: actions/upload-artifact@v2
+        with:
+          name: .net-app
+          path: UpRise.Starter.Core/UpRise.Starter.Core.sln
+
+  deploy:
+    runs-on: windows-latest
+    needs: build
+    environment:
+      name: 'production'
+      url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
+
+    steps:
+      - name: Download artifact from build job
+        uses: actions/download-artifact@v2
+        with:
+          name: .net-app
+
+      - name: Deploy to Azure Web App
+        id: deploy-to-webapp
+        uses: azure/webapps-deploy@v2
+        with:
+          app-name: 'UpRise'
+          slot-name: 'production'
+          publish-profile: ${{ secrets.AzureAppService_PublishProfile_UpRise }}
+          package: .
