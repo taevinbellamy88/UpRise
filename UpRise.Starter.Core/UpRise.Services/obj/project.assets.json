@@ -3621,24 +3621,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\taevin.bellamy\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\ujosh\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\taevin.bellamy\\source\\repos\\UpRise\\UpRise.Starter.Core\\UpRise.Services\\UpRise.Services.csproj",
+      "projectUniqueName": "C:\\Repos\\UpRise\\UpRise.Starter.Core\\UpRise.Services\\UpRise.Services.csproj",
       "projectName": "UpRise.Services",
-      "projectPath": "C:\\Users\\taevin.bellamy\\source\\repos\\UpRise\\UpRise.Starter.Core\\UpRise.Services\\UpRise.Services.csproj",
-      "packagesPath": "C:\\Users\\taevin.bellamy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\taevin.bellamy\\source\\repos\\UpRise\\UpRise.Starter.Core\\UpRise.Services\\obj\\",
+      "projectPath": "C:\\Repos\\UpRise\\UpRise.Starter.Core\\UpRise.Services\\UpRise.Services.csproj",
+      "packagesPath": "C:\\Users\\ujosh\\.nuget\\packages\\",
+      "outputPath": "C:\\Repos\\UpRise\\UpRise.Starter.Core\\UpRise.Services\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\taevin.bellamy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\ujosh\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3646,21 +3641,20 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\taevin.bellamy\\source\\repos\\UpRise\\UpRise.Starter.Core\\UpRise.Data\\UpRise.Data.csproj": {
-              "projectPath": "C:\\Users\\taevin.bellamy\\source\\repos\\UpRise\\UpRise.Starter.Core\\UpRise.Data\\UpRise.Data.csproj"
+            "C:\\Repos\\UpRise\\UpRise.Starter.Core\\UpRise.Data\\UpRise.Data.csproj": {
+              "projectPath": "C:\\Repos\\UpRise\\UpRise.Starter.Core\\UpRise.Data\\UpRise.Data.csproj"
             },
-            "C:\\Users\\taevin.bellamy\\source\\repos\\UpRise\\UpRise.Starter.Core\\UpRise.Models\\UpRise.Models.csproj": {
-              "projectPath": "C:\\Users\\taevin.bellamy\\source\\repos\\UpRise\\UpRise.Starter.Core\\UpRise.Models\\UpRise.Models.csproj"
+            "C:\\Repos\\UpRise\\UpRise.Starter.Core\\UpRise.Models\\UpRise.Models.csproj": {
+              "projectPath": "C:\\Repos\\UpRise\\UpRise.Starter.Core\\UpRise.Models\\UpRise.Models.csproj"
             },
-            "C:\\Users\\taevin.bellamy\\source\\repos\\UpRise\\UpRise.Starter.Core\\UpRise.Web.Models\\UpRise.Web.Models.csproj": {
-              "projectPath": "C:\\Users\\taevin.bellamy\\source\\repos\\UpRise\\UpRise.Starter.Core\\UpRise.Web.Models\\UpRise.Web.Models.csproj"
+            "C:\\Repos\\UpRise\\UpRise.Starter.Core\\UpRise.Web.Models\\UpRise.Web.Models.csproj": {
+              "projectPath": "C:\\Repos\\UpRise\\UpRise.Starter.Core\\UpRise.Web.Models\\UpRise.Web.Models.csproj"
             }
           }
         }
@@ -3732,7 +3726,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
