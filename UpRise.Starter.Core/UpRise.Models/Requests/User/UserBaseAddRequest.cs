@@ -13,9 +13,5 @@
             get; set;
         }
 
-        public object TenantId
-        {
-            get; set;
-        }
     }
 }

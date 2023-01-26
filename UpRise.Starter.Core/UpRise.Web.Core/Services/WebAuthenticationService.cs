@@ -7,7 +7,6 @@ using System.Security.Principal;
 using UpRise.Models.Domain;
 using UpRise.Models.Interfaces;
 using UpRise.Services.Interfaces.Security;
-using UpRise.Services.Security;
 
 namespace UpRise.Web.Core.Services
 {
@@ -38,7 +37,7 @@ namespace UpRise.Web.Core.Services
 
             identity.AddClaim(new Claim(ClaimTypes.NameIdentifier, user.Id.ToString(), ClaimValueTypes.String));
 
-            identity.AddClaim(new Claim(ClaimsIdentity.DefaultNameClaimType, user.Name, ClaimValueTypes.String));
+            identity.AddClaim(new Claim(ClaimsIdentity.DefaultNameClaimType, user.Email, ClaimValueTypes.String));
 
             if (user.Roles != null && user.Roles.Any())
             {
@@ -48,7 +47,7 @@ namespace UpRise.Web.Core.Services
                 }
             }
 
-            identity.AddTenantId(user.TenantId);
+            //identity.AddTenantId(user.TenantId);
 
             identity.AddClaims(extraClaims);
 
@@ -122,7 +121,7 @@ namespace UpRise.Web.Core.Services
                         break;
 
                     case ClaimTypes.Name:
-                        baseUser.Name = claim.Value;
+                        baseUser.Email = claim.Value;
                         break;
 
                     case ClaimTypes.Role:
@@ -136,10 +135,6 @@ namespace UpRise.Web.Core.Services
                         break;
 
                     default:
-                        if (identity.IsTenantIdClaim(claim.Type))
-                        {
-                            baseUser.TenantId = claim.Value;
-                        }
 
                         break;
                 }
