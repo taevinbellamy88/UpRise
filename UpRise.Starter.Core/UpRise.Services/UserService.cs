@@ -4,7 +4,6 @@ using System.Security.Claims;
 using UpRise.Data.Extensions;
 using UpRise.Data.Interfaces;
 using UpRise.Models.Domain;
-using UpRise.Models.Domain.User;
 using UpRise.Models.Interfaces;
 using UpRise.Models.Requests.User;
 using UpRise.Services.Interfaces;
@@ -49,19 +48,19 @@ namespace UpRise.Services
             {
                 Id = id
                 ,
-                Name = email
+                Email = email
                 ,
                 Roles = allRoles
-                ,
-                TenantId = "CnmPro"
+
             };
 
-            Claim fullName = new Claim("CustomClaim", "UpRise Bootcamp");
+            Claim fullName = new Claim("CustomClaim", "UpRise");
             await _authenticationService.LogInAsync(response, new Claim[] { fullName });
 
             return isSuccessful;
         }
 
+        //CHECKED
         public int Create(UserAddRequest userModel)
         {
             int userId = 0;
@@ -69,16 +68,12 @@ namespace UpRise.Services
             string salt = BCrypt.BCryptHelper.GenerateSalt();
             string hashedPassword = BCrypt.BCryptHelper.HashPassword(password, salt);
 
-            string procName = "[dbo].[Users_InsertV2]";
+            string procName = "[dbo].[Users_Insert]";
 
             _dataProvider.ExecuteNonQuery(procName,
                 inputParamMapper: delegate (SqlParameterCollection paramCol)
                 {
-                    paramCol.AddWithValue("@Email", userModel.Email);
-                    paramCol.AddWithValue("@Password", hashedPassword);
-                    paramCol.AddWithValue("@IsConfirmed", false);
-                    paramCol.AddWithValue("@UserStatusId", 1);
-                    paramCol.AddWithValue("@RoleId", 1);
+                    MapSingleUser(userModel, paramCol, hashedPassword);
 
                     SqlParameter idOut = new SqlParameter("@Id", SqlDbType.Int);
                     idOut.Direction = ParameterDirection.Output;
@@ -93,6 +88,17 @@ namespace UpRise.Services
                 });
 
             return userId;
+        }
+
+        private static void MapSingleUser(UserAddRequest userModel, SqlParameterCollection paramCol, string hashedPassword)
+        {
+            paramCol.AddWithValue("@Email", userModel.Email);
+            paramCol.AddWithValue("@Username", userModel.UserName);
+            paramCol.AddWithValue("@FirstName", userModel.FirstName);
+            paramCol.AddWithValue("@LastName", userModel.LastName);
+            paramCol.AddWithValue("@Password", hashedPassword);
+            paramCol.AddWithValue("@IsConfirmed", false);
+            paramCol.AddWithValue("@Roles", "User");
         }
 
         public void UpdatePassword(UserUpdatePasswordRequest model)
@@ -144,16 +150,12 @@ namespace UpRise.Services
                 returnParameters: null);
         }
 
-
-
-
-
         private IUserAuthData Get(string email, string password)
         {
             string passwordFromDb = "";
             UserBase user = null;
 
-            string procName = "[dbo].[Users_Select_AuthDataV2]";
+            string procName = "[dbo].[Users_Select_AuthData]";
 
             _dataProvider.ExecuteCmd(procName,
                 inputParamMapper: delegate (SqlParameterCollection paramCol)
@@ -164,10 +166,9 @@ namespace UpRise.Services
                 {
                     UserBase aUser = new UserBase();
                     aUser.Id = reader.GetSafeInt32(0);
-                    aUser.Name = reader.GetSafeString(1);
+                    aUser.Email = reader.GetSafeString(1);
                     passwordFromDb = reader.GetSafeString(2);
                     aUser.Roles = new[] { reader.GetSafeString(3) };
-                    aUser.TenantId = "CnmPro";
 
                     bool isValidCredentials = BCrypt.BCryptHelper.CheckPassword(password, passwordFromDb);
 
@@ -175,19 +176,9 @@ namespace UpRise.Services
                     {
                         user = aUser;
                     }
+                    else throw new Exception("Incorrect Password");
                 }
                 );
-
-            return user;
-        }
-        private static User MapSingleUser(IDataReader reader)
-        {
-            User user = new User();
-            int index = 0;
-            user.Id = reader.GetSafeInt32(index++);
-            user.Email = reader.GetSafeString(index++);
-            user.Roles = new[] { reader.GetSafeString(index++) };
-            user.TenantId = "CnmPro";
 
             return user;
         }

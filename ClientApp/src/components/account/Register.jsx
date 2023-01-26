@@ -15,7 +15,7 @@ const Register = () => {
       email: "",
       firstName: "",
       lastName: "",
-      company: "",
+      userName: "",
       password: "",
       confirmPassword: "",
    });
@@ -109,10 +109,10 @@ const Register = () => {
                   </div>
 
                   <div className="form-group m-2">
-                     <label htmlFor="company">Company</label>
-                     <Field type="text" name="company" className="form-control" />
+                     <label htmlFor="userName">Username</label>
+                     <Field type="text" name="userName" className="form-control" />
                      <ErrorMessage
-                        name="company"
+                        name="userName"
                         component="div"
                         className="has-error"
                      >
