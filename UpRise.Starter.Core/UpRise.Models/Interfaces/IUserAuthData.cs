@@ -1,12 +1,10 @@
-﻿using System.Collections.Generic;
-
-namespace UpRise.Models.Interfaces
+﻿namespace UpRise.Models.Interfaces
 {
     public interface IUserAuthData
     {
         int Id { get; }
-        string Name { get; }
+        string Email { get; }
         IEnumerable<string> Roles { get; }
-        object TenantId { get; }
+
     }
 }
