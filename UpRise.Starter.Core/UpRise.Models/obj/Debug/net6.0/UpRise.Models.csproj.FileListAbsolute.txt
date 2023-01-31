@@ -12,3 +12,6 @@ C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Models\ob
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Models\obj\Debug\net6.0\refint\UpRise.Models.dll
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Models\obj\Debug\net6.0\UpRise.Models.pdb
 C:\Users\taevin.bellamy\source\repos\UpRise\UpRise.Starter.Core\UpRise.Models\obj\Debug\net6.0\ref\UpRise.Models.dll
+C:\Repos\UpRise\UpRise.Starter.Core\UpRise.Models\obj\Debug\net6.0\UpRise.Models.dll
+C:\Repos\UpRise\UpRise.Starter.Core\UpRise.Models\obj\Debug\net6.0\refint\UpRise.Models.dll
+C:\Repos\UpRise\UpRise.Starter.Core\UpRise.Models\obj\Debug\net6.0\UpRise.Models.pdb
