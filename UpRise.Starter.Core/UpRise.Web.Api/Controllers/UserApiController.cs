@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using UpRise.Models.Domain;
 using UpRise.Models.Domain.User;
 using UpRise.Models.Interfaces;
 using UpRise.Models.Requests.User;
@@ -96,7 +97,7 @@ namespace UpRise.Web.Api.Controllers
         }
 
         [HttpGet("current")]
-        public ActionResult<ItemResponse<User>> CurrentUser()
+        public ActionResult<ItemResponse<UserBase>> CurrentUser()
         {
             int code = 200;
             BaseResponse response = null;

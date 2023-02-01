@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using UpRise.Models.Interfaces;
+﻿using UpRise.Models.Interfaces;
 
 namespace UpRise.Models.Domain
 {
@@ -10,17 +9,12 @@ namespace UpRise.Models.Domain
             get; set;
         }
 
-        public string Name
+        public string Email
         {
             get; set;
         }
 
         public IEnumerable<string> Roles
-        {
-            get; set;
-        }
-
-        public object TenantId
         {
             get; set;
         }

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace UpRise.Models.Domain
+namespace UpRise.Models.Domain.Faq
 {
-    public class FAQ
+    public class baseFAQ
     {
         public int Id { get; set; }
         public string Question { get; set; }

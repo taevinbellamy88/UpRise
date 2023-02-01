@@ -1702,7 +1702,7 @@
       },
       "UpRise.Services/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AWSSDK.S3": "3.7.101.54",
           "BCrypt-Core": "2.0.0",
