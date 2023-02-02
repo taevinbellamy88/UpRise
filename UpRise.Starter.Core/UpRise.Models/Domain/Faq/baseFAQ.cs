@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UpRise.Models.Domain.Faq
 {
-    public class baseFAQ
+    public class BaseFAQ
     {
         public int Id { get; set; }
         public string Question { get; set; }
