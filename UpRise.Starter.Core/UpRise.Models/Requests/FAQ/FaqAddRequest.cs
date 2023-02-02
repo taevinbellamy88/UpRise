@@ -12,9 +12,5 @@ namespace UpRise.Models.Requests.FAQ
         public string Answer { get; set; }
         public int CategoryId { get; set; }
         public int SortOrder { get; set; }
-        public DateTime DateCreated { get; set; }
-        public DateTime DateModified { get; set; }
-        public int CreatedBy { get; set; }
-        public int ModifiedBy { get; set; }
     }
 }

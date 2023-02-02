@@ -1,6 +1,7 @@
 ﻿using UpRise.Data.Interfaces;
 using UpRise.Data.Providers;
 using UpRise.Services;
+using UpRise.Services.FAQ;
 using UpRise.Services.Interfaces;
 using UpRise.Services.Interfaces.Security;
 using UpRise.Web.Core.Services;
@@ -45,6 +46,7 @@ namespace UpRise.Web.Api.StartUp
 
             //Add Singletons
             //services.AddSingleton<IFooInterface, FooService>();
+            services.AddSingleton<IFAQService, FAQService>();
 
 
 
