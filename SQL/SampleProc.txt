@@ -1,4 +1,4 @@
-CREATE PROC dbo.xxxxxxxx_xxxxx
+CREATE PROC dbo.Table_backup
 AS
 BEGIN TRY
     BEGIN 
