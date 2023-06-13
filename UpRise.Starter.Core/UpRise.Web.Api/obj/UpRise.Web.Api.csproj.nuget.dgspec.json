@@ -45,6 +45,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "BCrypt": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "BCrypt-Core": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "Microsoft.AspNetCore.SpaProxy": {
               "target": "Package",
               "version": "[6.0.13, )"
@@ -131,6 +139,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "BCrypt": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "BCrypt-Core": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "Microsoft.AspNetCore.SpaProxy": {
               "target": "Package",
               "version": "[6.0.13, )"
@@ -226,6 +242,10 @@
             "AWSSDK.S3": {
               "target": "Package",
               "version": "[3.7.101.54, )"
+            },
+            "BCrypt": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             },
             "BCrypt-Core": {
               "target": "Package",
@@ -344,6 +364,10 @@
             "AWSSDK.S3": {
               "target": "Package",
               "version": "[3.7.101.54, )"
+            },
+            "BCrypt": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             },
             "BCrypt-Core": {
               "target": "Package",
@@ -517,6 +541,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "BCrypt": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "BCrypt-Core": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "Microsoft.AspNetCore.Authentication.Cookies": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -623,6 +655,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "BCrypt": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "BCrypt-Core": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
             "Microsoft.AspNetCore.SpaProxy": {
               "target": "Package",
               "version": "[6.0.13, )"

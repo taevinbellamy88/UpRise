@@ -2,6 +2,24 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "BCrypt/1.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/DevOne.Security.Cryptography.BCrypt.dll": {}
+        },
+        "runtime": {
+          "lib/DevOne.Security.Cryptography.BCrypt.dll": {}
+        }
+      },
+      "BCrypt-Core/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp2.0/BCrypt-Core.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/BCrypt-Core.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.NodeServices/3.1.32": {
         "type": "package",
         "dependencies": {
@@ -359,6 +377,30 @@
     }
   },
   "libraries": {
+    "BCrypt/1.0.0": {
+      "sha512": "/ibwe2Sg7MJR26IrEzW2Rde9/+A+AYXB5Kf9w/8BVLDdzSfUe4W2M7i2efy1Wa9wHh1k0y81Q6h9Ty8C6IrUGA==",
+      "type": "package",
+      "path": "bcrypt/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bcrypt.1.0.0.nupkg.sha512",
+        "bcrypt.nuspec",
+        "lib/DevOne.Security.Cryptography.BCrypt.dll"
+      ]
+    },
+    "BCrypt-Core/2.0.0": {
+      "sha512": "g6CJ6ixfOjyLkyuQIQn61Isb4ee+0Q0eqsNn0fHB+s5kbChNU9zETXafDD83SN+1eU/QWPSL5f2lTM0PG9mGVg==",
+      "type": "package",
+      "path": "bcrypt-core/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bcrypt-core.2.0.0.nupkg.sha512",
+        "bcrypt-core.nuspec",
+        "lib/netcoreapp2.0/BCrypt-Core.dll"
+      ]
+    },
     "Microsoft.AspNetCore.NodeServices/3.1.32": {
       "sha512": "WGtOOAaW7AWaYXkR/TqBI5hDd2S17iImWKxraC9q9v6MpxUvqUyvlaF+IVJp+rU4Mxy7IzrhxrtU1YfUDLSXIA==",
       "type": "package",
@@ -764,6 +806,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "BCrypt >= 1.0.0",
+      "BCrypt-Core >= 2.0.0",
       "Microsoft.AspNetCore.SpaProxy >= 6.0.13",
       "Microsoft.AspNetCore.SpaServices >= 3.1.32",
       "Microsoft.AspNetCore.SpaServices.Extensions >= 6.0.13",
@@ -815,6 +859,14 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "BCrypt": {
+            "target": "Package",
+            "version": "[1.0.0, )"
+          },
+          "BCrypt-Core": {
+            "target": "Package",
+            "version": "[2.0.0, )"
+          },
           "Microsoft.AspNetCore.SpaProxy": {
             "target": "Package",
             "version": "[6.0.13, )"
@@ -851,5 +903,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'BCrypt 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "BCrypt",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }
