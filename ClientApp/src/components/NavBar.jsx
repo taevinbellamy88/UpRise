@@ -86,7 +86,12 @@ const NavBar = (props) => {
                      </Link>
                   )}
                   {toggleUserBtn && (
-                     <Link type="button" className="btn btn-warning" to="/register">
+                     <Link
+                        type="button"
+                        className="btn btn-warning"
+                        to="/register"
+                        onClick={handleClick}
+                     >
                         Register
                      </Link>
                   )}

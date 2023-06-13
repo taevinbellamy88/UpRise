@@ -6,10 +6,10 @@ import icon from "../public/icons8-user-96.png";
 const SocialMedia = () => {
    const [posts, setPosts] = useState([]);
 
-   const onFileSelect = (e, setFieldValue) => {
-      setFieldValue("image", e.currentTarget.files[0]);
-      setSelectedImage(URL.createObjectURL(e.currentTarget.files[0]));
-   };
+   // const onFileSelect = (e, setFieldValue) => {
+   //    setFieldValue("image", e.currentTarget.files[0]);
+   //    setSelectedImage(URL.createObjectURL(e.currentTarget.files[0]));
+   // };
 
    const [selectedImage, setSelectedImage] = useState(undefined);
 
