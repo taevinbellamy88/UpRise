@@ -61,6 +61,8 @@ namespace UpRise.Web.Api.Controllers
 
             try
             {
+
+                int userId = _authService.GetCurrentUserId();
                 success = await _userService.LogInAsync(model.Email, model.Password);
 
                 response = (success == false) ? new ErrorResponse("Login Error.") : new SuccessResponse();

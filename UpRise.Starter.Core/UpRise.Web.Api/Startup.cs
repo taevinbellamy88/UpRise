@@ -34,7 +34,7 @@ namespace UpRise.Web.Api
             MVC.ConfigureServices(services);
             services.AddApplicationInsightsTelemetry();
 
-            SPA.ConfigureServices(services);
+            //SPA.ConfigureServices(services);
         }
 
         private void ConfigureAppSettings(IServiceCollection services)
@@ -82,7 +82,7 @@ namespace UpRise.Web.Api
 
             MVC.Configure(app, env);
 
-            SPA.Configure(app, env);
+            //SPA.Configure(app, env);
 
         }
     }
