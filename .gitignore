@@ -399,3 +399,6 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+/UpRise.Starter.Core/.vs/UpRise.Starter.Core/v17/.suo
+/UpRise.Starter.Core/UpRise.Data/obj/Debug/net6.0/UpRise.Data.assets.cache
+/UpRise.Starter.Core/UpRise.Data/obj/Debug/net6.0/UpRise.Data.csproj.FileListAbsolute.txt
