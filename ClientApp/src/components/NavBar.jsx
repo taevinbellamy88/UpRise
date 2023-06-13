@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { COGNITO_DOMAIN_API } from "../services/serviceHelper.js";
 
@@ -42,12 +41,12 @@ const NavBar = (props) => {
                      </Link>
                   </li>
                   <li className="nav-item">
-                     <Button
-                        onClick={handleClick}
+                     <Link
                         className="nav-link px-2 text-white link-button"
+                        to="/social/feed"
                      >
-                        COGNITO
-                     </Button>
+                        Social
+                     </Link>
                   </li>
                   <li className="nav-item">
                      <Link

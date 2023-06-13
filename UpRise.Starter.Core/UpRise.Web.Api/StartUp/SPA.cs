@@ -1,4 +1,6 @@
-﻿namespace UpRise.Web.Api.StartUp
+﻿using Microsoft.AspNetCore.SpaServices.ReactDevelopmentServer;
+
+namespace UpRise.Web.Api.StartUp
 {
     public class SPA
     {
@@ -19,17 +21,17 @@
             app.UseWhen(
                 context => !context.Request.Path.StartsWithSegments("/api"), UseSinglePageApplication);
 
-            //app.UseSpaStaticFiles();
+            app.UseSpaStaticFiles();
 
-            //app.UseSpa(spa =>
-            //{
-            //    spa.Options.SourcePath = "ClientApp";
-            //    if (env.IsDevelopment())
-            //    {
-            //        spa.UseReactDevelopmentServer(npmScript: "start");
-            //    }
+            app.UseSpa(spa =>
+            {
+                spa.Options.SourcePath = "ClientApp";
+                if (env.IsDevelopment())
+                {
+                    spa.UseReactDevelopmentServer(npmScript: "start");
+                }
 
-            //});
+            });
         }
 
         public static void UseSinglePageApplication(IApplicationBuilder app)
